@@ -7,13 +7,11 @@ def randNumGenerator(minBound, maxBound):
     """
     return random.randint(int(minBound), int(maxBound))
 
-
 def randOperator():
     """
     return a random arithmetic operator
     """
     return random.choice(['+', '-', '*'])
-
 
 def arithmeticOp(num1, num2, operator):
     """
@@ -43,7 +41,6 @@ def math_quiz():
         print(f"\nQuestion: {PROBLEM}")
 
         ## If the user enters a character that is not a number, then keep asking for the answer until a number is provided
-
         useranswer = ""
         flag = True
         while flag:
